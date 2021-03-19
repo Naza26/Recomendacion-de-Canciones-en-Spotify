@@ -77,7 +77,7 @@ Bad Romance - Lady Gaga; Poker Face - Lady Gaga; Telephone (feat. Beyoncé) - La
 Usando la idea de [PageRank Personalizado](https://algoritmos-rw.github.io/algo2/material/apuntes/pagerank/), y lo indicado en [este paper](http://web.stanford.edu/class/msande233/handouts/lecture8.pdf), implementaremos un algoritmo que permita determinar qué otros usuarios se puede recomendar seguir, o bien qué canciones probablemente pudieran gustar, a partir de un listado de canciones.
 
 * Comando: recomendacion.
-* Parámetros: usuarios/canciones, si se espera una recomendación para seguir un usuario o para escuchar una cancion; n, la cantidad de usuarios o canciones a recomendar; cancion1 >>>> cancion2 >>>> ... >>>> cancionK, las canciones que ya sabemos que le gustan a la persona a recomendar (que podrías ser vos misma ;-)).
+* Parámetros: usuarios/canciones, si se espera una recomendación para seguir un usuario o para escuchar una cancion; n, la cantidad de usuarios o canciones a recomendar; cancion1 >>>> cancion2 >>>> ... >>>> cancionK, las canciones que ya sabemos que le gustan a la persona a recomendar.
 * Utilidad: Dar una lista de n usuarios o canciones para recomendar, dado el listado de canciones que ya sabemos que le gustan a la persona a la cual recomedar.
 * Ejemplo: Entrada:
 
@@ -164,4 +164,6 @@ Salida:
   0.988
   
 ```
+# Colaboracion
+El desarrollo de este trabajo fue hecho en conjunto con Tomás Bernardotti.
 
